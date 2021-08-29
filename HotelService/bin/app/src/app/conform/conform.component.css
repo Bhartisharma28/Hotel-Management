@@ -1,0 +1,29 @@
+body{
+    background-image:url('https://media.istockphoto.com/photos/headboard-detail-with-pillows-lamp-and-orchid-flowers-picture-id161692885?k=6&m=161692885&s=612x612&w=0&h=9GRtfsJ_9b6lvHf42NEzvPA_slFzUnLL2Xwq3p-Lvl8=');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+
+}
+h6{
+    color: blue;
+    text-align: center
+}
+h4{
+    color:green;
+    text-align: center
+}
+.wrapper {
+text-align: center;
+}
+
+
+.card {
+    margin: 0 auto; 
+    justify-content: center;
+    position: absolute;
+  top: 25%;
+  left: 37%;
+    margin-bottom: 10px;
+    
+}

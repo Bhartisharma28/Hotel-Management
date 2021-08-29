@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>RegistrationForm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booking-status.component.css">
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="inner">
+            <form action="">
+                <h3>Book Your Stay</h3>
+                <div class="form-row">
+                    <div class="form-wrapper">
+                        <label for="">Name *</label>
+                        <input type="text" class="form-control" placeholder="Your Name" [(ngModel)]="name" value="name" name="name">
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="">Phone *</label>
+                        <input type="text" class="form-control" placeholder="Phone" [(ngModel)]="phone_number" value="phone_number" name="phone_number">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-wrapper">
+                        <label for="">Check-in *</label>
+                        <input type="date" [(ngModel)]="from_date" value="fromDate" name="fromDate">
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="">Check-out *</label>
+                        <input type="date" [(ngModel)]="to_date" value="toDate" name="toDate">
+                    </div>
+                </div>
+                <div class="form-row last">
+                    <div class="form-wrapper">
+                        <label for="">Adults *</label>
+                        <select name="" id="" class="form-control">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+                        <i class="zmdi zmdi-chevron-down"></i>
+                    </div>
+                    <div class="form-wrapper">
+                        <label for="">Chidren *</label>
+                        <select name="" id="" class="form-control">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+                        <i class="zmdi zmdi-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <label>
+							<input type="checkbox"> No one rejects, dislikes, or avoids pleasure itself.
+							<span class="checkmark"></span>
+						</label>
+                </div>
+                <button data-text="Book Room" (click)="book()">
+						<span>Book Room</span>
+					</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
