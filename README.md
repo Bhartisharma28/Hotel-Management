@@ -1,4 +1,4 @@
-# Hotel-Booking service
+# Hotel-Management
 
 
 Project Description: It is a hotel management web application where user can book a hotel room by selecting which hotel and which room type does user wants. And also user can select check-in and check-out date, according to that the price of room changes and recorded into the database.
